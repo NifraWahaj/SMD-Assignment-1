@@ -18,32 +18,33 @@ public class activity_review_info extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_review_info);
 
-        // Sender Information
+        // sender info
         String senderEmail = getIntent().getStringExtra("senderEmail");
         String senderName = getIntent().getStringExtra("senderName");
         String senderContact = getIntent().getStringExtra("senderContact");
         String senderCountry = getIntent().getStringExtra("senderCountry");
         String senderAddress = getIntent().getStringExtra("senderAddress");
 
-        // Reciever Information
+        // reciever info
         String recieverEmail = getIntent().getStringExtra("recieverEmail");
         String recieverName = getIntent().getStringExtra("recieverName");
         String recieverContact = getIntent().getStringExtra("recieverContact");
         String recieverCountry = getIntent().getStringExtra("recieverCountry");
         String recieverAddress = getIntent().getStringExtra("recieverAddress");
 
-        // Populate TextViews with the received data
+        // display sender info
         ((TextView) findViewById(R.id.senderName)).setText(senderName);
         ((TextView) findViewById(R.id.senderCountry)).setText(senderEmail);
         ((TextView) findViewById(R.id.senderContact)).setText(senderContact);
         ((TextView) findViewById(R.id.senderAddress)).setText(senderAddress);
 
-        // Populate Reciever Information (You need to add these TextViews in activity_review_info.xml)
+        // display reciever info
         ((TextView) findViewById(R.id.receiverName)).setText(recieverName);
         ((TextView) findViewById(R.id.receiverCountry)).setText(recieverEmail);
         ((TextView) findViewById(R.id.receiverContact)).setText(recieverContact);
         ((TextView) findViewById(R.id.receiverAddress)).setText(recieverAddress);
 
+        // FAB
         FloatingActionButton btnFab = findViewById(R.id.fabReview);
         btnFab.setOnClickListener(v -> {
             Intent iReciever = new Intent(activity_review_info.this, activity_sender_info.class);

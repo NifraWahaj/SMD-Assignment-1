@@ -15,14 +15,13 @@ public class activity_reciever_info extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reciever_info);
 
-
         Button btnNext;
         btnNext = findViewById(R.id.btnNextReview);
         btnNext.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
 
-                // Inside btnNext onClickListener
+
                 Intent iReview = new Intent(activity_reciever_info.this, activity_review_info.class);
                 iReview.putExtra("recieverEmail", ((EditText) findViewById(R.id.email)).getText().toString());
                 iReview.putExtra("recieverName", ((EditText) findViewById(R.id.name)).getText().toString());
@@ -30,7 +29,7 @@ public class activity_reciever_info extends AppCompatActivity {
                 iReview.putExtra("recieverCountry", ((EditText) findViewById(R.id.country)).getText().toString());
                 iReview.putExtra("recieverAddress", ((EditText) findViewById(R.id.address)).getText().toString());
 
-// Pass the sender's data as well
+                // passing sender's data
                 iReview.putExtra("senderEmail", getIntent().getStringExtra("senderEmail"));
                 iReview.putExtra("senderName", getIntent().getStringExtra("senderName"));
                 iReview.putExtra("senderContact", getIntent().getStringExtra("senderContact"));

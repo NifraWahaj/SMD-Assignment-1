@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- text -->
+    <dimen name="text_size_large">30sp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+    <dimen name="textsize_XLlarge">40sp</dimen>
+
+    <!-- margins -->
+    <dimen name="margin_large">50dp</dimen>
+    <dimen name="margin_medium">20dp</dimen>
+    <dimen name="margin_top_medium">35dp</dimen>
+
+    <!-- padding -->
+    <dimen name="padding_large">20dp</dimen>
+    <dimen name="padding_medium">10dp</dimen>
+    <dimen name="padding_normal">30dp</dimen>
+
+    <!-- width/height -->
+    <dimen name="tfWidth">300dp</dimen>
+    <dimen name="btnWidth">150dp</dimen>
+    <dimen name="btnHeight">38dp</dimen>
+    <dimen name="tablewidth">0dp</dimen>
+    <dimen name="arrowH">50dp</dimen>
+    <dimen name="arrowW">40dp</dimen>
+
+</resources>

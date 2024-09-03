@@ -19,82 +19,82 @@
 
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:paddingLeft="20dp"
-            android:textSize="40sp"
+            android:paddingLeft="@dimen/padding_large"
+            android:textSize="@dimen/textsize_XLlarge"
             android:fontFamily="sans-serif-medium"
             />
 
         <EditText
             android:id="@+id/email"
-            android:layout_width="300dp"
+            android:layout_width="@dimen/tfWidth"
             android:layout_height="wrap_content"
             android:hint="@string/email"
             android:inputType="textEmailAddress"
-            android:padding="10dp"
+            android:padding="@dimen/padding_medium"
             android:background="@color/white"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="@dimen/margin_large"
             />
 
         <EditText
             android:id="@+id/name"
-            android:layout_width="300dp"
+            android:layout_width="@dimen/tfWidth"
             android:layout_height="wrap_content"
             android:hint="@string/full_name"
             android:inputType="textPersonName"
-            android:padding="10dp"
+            android:padding="@dimen/padding_medium"
             android:background="@color/white"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="@dimen/margin_medium"
             />
 
         <EditText
             android:id="@+id/contact_info"
-            android:layout_width="300dp"
+            android:layout_width="@dimen/tfWidth"
             android:layout_height="wrap_content"
             android:hint="@string/contact_information"
             android:inputType="phone"
-            android:padding="10dp"
+            android:padding="@dimen/padding_medium"
             android:background="@color/white"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="@dimen/margin_medium"
             />
 
         <EditText
             android:id="@+id/country"
-            android:layout_width="300dp"
+            android:layout_width="@dimen/tfWidth"
             android:layout_height="wrap_content"
             android:hint="@string/country"
             android:inputType="text"
-            android:padding="10dp"
+            android:padding="@dimen/padding_medium"
             android:background="@color/white"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="@dimen/margin_medium"
             />
 
         <EditText
             android:id="@+id/address"
-            android:layout_width="300dp"
+            android:layout_width="@dimen/tfWidth"
             android:layout_height="wrap_content"
             android:hint="@string/address"
             android:inputType="textPostalAddress"
-            android:padding="10dp"
+            android:padding="@dimen/padding_medium"
             android:background="@color/white"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="@dimen/margin_medium"
             />
 
 
         <Button
             android:id="@+id/btnNextReview"
-            android:layout_width="150dp"
+            android:layout_width="@dimen/btnWidth"
             android:layout_height="38dp"
             android:text="@string/next"
             android:backgroundTint="@color/red"
             android:textColor="@color/white"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="@dimen/margin_top_medium"
             android:layout_gravity="center_horizontal"
-            android:textSize="16sp"
+            android:textSize="@dimen/text_size_medium"
             android:fontFamily="sans-serif-medium"
             />
 
