@@ -2,8 +2,6 @@ package com.example.smd_assignment1;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -34,13 +32,13 @@ public class activity_review_info extends AppCompatActivity {
 
         // display sender info
         ((TextView) findViewById(R.id.senderName)).setText(senderName);
-        ((TextView) findViewById(R.id.senderCountry)).setText(senderEmail);
+        ((TextView) findViewById(R.id.senderCountry)).setText(senderCountry);
         ((TextView) findViewById(R.id.senderContact)).setText(senderContact);
         ((TextView) findViewById(R.id.senderAddress)).setText(senderAddress);
 
         // display reciever info
         ((TextView) findViewById(R.id.receiverName)).setText(recieverName);
-        ((TextView) findViewById(R.id.receiverCountry)).setText(recieverEmail);
+        ((TextView) findViewById(R.id.receiverCountry)).setText(recieverCountry);
         ((TextView) findViewById(R.id.receiverContact)).setText(recieverContact);
         ((TextView) findViewById(R.id.receiverAddress)).setText(recieverAddress);
 

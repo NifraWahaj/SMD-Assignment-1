@@ -96,6 +96,14 @@
                     android:textSize="@dimen/text_size_medium" />
 
                 <TextView
+                    android:id="@+id/senderAddress"
+                    android:layout_width="@dimen/tablewidth"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingRight="@dimen/padding_normal"
+                    android:textSize="@dimen/text_size_medium"/>
+
+                <TextView
                     android:id="@+id/senderContact"
                     android:layout_width="@dimen/tablewidth"
                     android:layout_height="wrap_content"
@@ -103,13 +111,7 @@
                     android:paddingRight="@dimen/padding_normal"
                     android:textSize="@dimen/text_size_medium" />
 
-                <TextView
-                    android:id="@+id/senderAddress"
-                    android:layout_width="@dimen/tablewidth"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:paddingRight="@dimen/padding_normal"
-                    android:textSize="@dimen/text_size_medium"/>
+
 
             </TableRow>
         </TableLayout>
@@ -159,15 +161,6 @@
                     android:layout_weight="1"
                     android:paddingRight="@dimen/padding_normal"
                     android:textSize="@dimen/text_size_medium" />
-
-                <TextView
-                    android:id="@+id/receiverContact"
-                    android:layout_width="@dimen/tablewidth"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:paddingRight="@dimen/padding_normal"
-                    android:textSize="@dimen/text_size_medium" />
-
                 <TextView
                     android:id="@+id/receiverAddress"
                     android:layout_width="@dimen/tablewidth"
@@ -175,6 +168,13 @@
                     android:layout_weight="1"
                     android:paddingRight="@dimen/padding_normal"
                     android:textSize="@dimen/text_size_medium"/>
+                <TextView
+                    android:id="@+id/receiverContact"
+                    android:layout_width="@dimen/tablewidth"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingRight="@dimen/padding_normal"
+                    android:textSize="@dimen/text_size_medium" />
             </TableRow>
         </TableLayout>
 
